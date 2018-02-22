@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 var fs = require('fs');
 
-var router = require('./router/main')(app, fs);
+
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
@@ -23,3 +23,6 @@ app.use(session({
     resave: false,
     saveUninitialized: true
 }));
+
+
+var router = require('./router/main')(app, fs);

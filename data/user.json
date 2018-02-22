@@ -1,10 +1,18 @@
 {
-    "first_user": {
-        "password": "first_pass",
-        "name": "user1"
-    },
-    "second_user":{
-        "password": "second_pass",
-        "name": "user2"
-    }
+	"first_user": {
+		"password": "first_pass",
+		"name": "user1"
+	},
+	"second_user": {
+		"password": "second_pass",
+		"name": "user2"
+	},
+	"third-user": {
+		"password": "aaa",
+		"name": "bbb"
+	},
+	"third-user1": {
+		"password": "ccc",
+		"name": "askldfjlkasdfklasd"
+	}
 }
